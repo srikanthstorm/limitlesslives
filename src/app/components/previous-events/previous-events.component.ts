@@ -29,4 +29,5 @@ export class PreviousEventsComponent implements OnInit {
     return new Date(timestamp).toLocaleString();
 
   }
+  
 }

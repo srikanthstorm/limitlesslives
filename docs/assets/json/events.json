@@ -1,71 +1,25 @@
 [
   {
     "primPres": {
-      "name": "suni kumar",
-      "topic": "name",
-      "duration": "40M"
+      "name": "Alberto Vaca",
+      "topic": "Limitless(Ch1, Ch2) by Jim Kwik",
+      "duration": "20M"
     },
     "secondPres_1": {
-      "name": "suni kumar",
-      "topic": "topic name",
-      "duration": "10M"
+      "name": "Kevin Loder",
+      "topic": "Alter Ego Effect by Todd Herman",
+      "duration": "5M"
     },
     "secondPres_2": {
-      "name": "suni kumar",
-      "topic": "topic name",
-      "duration": "10M"
+      "name": "Stephen Asogwa",
+      "topic": "Not Available due to Some personal reasons",
+      "duration": "5M"
     },
     "actionable": {
-      "name": "suni kumar",
-      "topic": "topic name",
-      "duration": "25M"
-    },
-    "datetime": "2021-05-25T17:12:16Z"
-  },
-  {
-    "primPres": {
-      "name": "suni kumar",
-      "topic": "name",
-      "duration": "40M"
-    },
-    "secondPres_1": {
-      "name": "suni kumar",
-      "topic": "topic name",
+      "name": "Srikanth Doddi",
+      "topic": "Deep Work by Cal New Port",
       "duration": "10M"
     },
-    "secondPres_2": {
-      "name": "suni kumar",
-      "topic": "topic name",
-      "duration": "10M"
-    },
-    "actionable": {
-      "name": "suni kumar",
-      "topic": "topic name",
-      "duration": "25M"
-    },
-    "datetime": "2021-05-25T17:12:16Z"
-  },
-  {
-    "primPres": {
-      "name": "suni kumar",
-      "topic": "name",
-      "duration": "40M"
-    },
-    "secondPres_1": {
-      "name": "suni kumar",
-      "topic": "topic name",
-      "duration": "10M"
-    },
-    "secondPres_2": {
-      "name": "suni kumar",
-      "topic": "topic name",
-      "duration": "10M"
-    },
-    "actionable": {
-      "name": "suni kumar",
-      "topic": "topic name",
-      "duration": "25M"
-    },
-    "datetime": "2021-05-25T17:12:16Z"
+    "datetime": "5/23/2021 3:30 AM UTC"
   }
 ]

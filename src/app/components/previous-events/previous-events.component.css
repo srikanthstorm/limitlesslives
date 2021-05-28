@@ -17,13 +17,11 @@
 .card-body {
   transition: 0.3s;
   background: rgba(0, 0, 0, 0.1);
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-.card:hover {
-  transform: scale(1.1);
-}
+
 
 .card-footer {
   background: rgba(0, 0, 0, 0.8);
