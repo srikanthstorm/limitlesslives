@@ -1,0 +1,90 @@
+<div class="body">
+  <button [routerLink]="['/']" class="btn  historybtn">Current Event</button>
+  <div class="content">
+    <div class="row">
+      <div class="col-md-12" *ngFor="let event of eventsData">
+        <div class="card mt-5 maincard">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card">
+                <img class="card-img-top"
+                  src="https://images.unsplash.com/photo-1560439513-74b037a25d84?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                  alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">Primary Presenter</h4>
+                  <div class="details">
+                    <p>Name : <b> {{event.primPres.name}} </b> </p>
+                    <p>Topic : <b> {{event.primPres.topic}} </b> </p>
+                    <p>Duration : <b>{{event.primPres.duration}}</b></p>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-3">
+              <!-- sec 1 -->
+              <div class="card">
+                <img class="card-img-top"
+                  src="https://images.unsplash.com/photo-1561489413-985b06da5bee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                  alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">5 Min Presenter 1</h4>
+                  <div class="details">
+                    <p>Name : <b> {{event.secondPres_1.name}} </b> </p>
+                    <p>Topic : <b> {{event.secondPres_1.topic}} </b> </p>
+                    <p>Duration : <b>{{event.secondPres_1.duration}}</b></p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+
+              <!-- sec 2 -->
+              <div class="card">
+                <img class="card-img-top"
+                  src="https://images.unsplash.com/photo-1561489413-985b06da5bee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                  alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">5 Min Presenter 2</h4>
+                  <div class="details">
+                    <p>Name : <b> {{event.secondPres_2.name}} </b> </p>
+                    <p>Topic : <b> {{event.secondPres_2.topic}} </b> </p>
+                    <p>Duration : <b>{{event.secondPres_2.duration}}</b></p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <!-- actobalie -->
+              <div class="card">
+                <img class="card-img-top"
+                  src="https://images.unsplash.com/photo-1598386651573-9232cc0c2f7c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                  alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">Actionable</h4>
+                  <div class="details">
+                    <p>Name : <b> {{event.actionable.name}} </b> </p>
+                    <p>Topic : <b> {{event.actionable.topic}} </b> </p>
+                    <p>Duration : <b>{{event.actionable.duration}}</b></p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <p>Event Date : &nbsp;<span style="font-size: 1.3rem;"><b>{{returnTimestamp(event.datetime)}}</b></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
