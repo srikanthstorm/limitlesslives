@@ -3,12 +3,12 @@
     <div class="col-md-6">
       <div class="leftbox">
         <div class="content">
-          <h1>LIMITLESS BOOK EVENT</h1>
-          <p>Next Event Date : &nbsp;<span style="font-size: 1.3rem;"><b>{{eventDate}}</b></span> </p>
+          <h1>Tech Club</h1>
+          <p>Next Batch Date : &nbsp;<span style="font-size: 1.3rem;"><b>Stay Tuned..</b></span> </p>
         </div>
 
         <br>
-        <button [routerLink]="['/previous-events']" class="btn btn-block historybtn">Previous Events</button>
+        <button [routerLink]="['/previous-events']" class="btn btn-block historybtn" disabled>Registrations Closed</button>
 
 
       </div>
@@ -20,14 +20,19 @@
         <div class="cards" *ngIf="eventData">
           <div class="card">
             <div class="row">
-              <div class="col-md-4 primarypresentor">
+              <div class="col-md-4 chandana">
               </div>
               <div class="col-md-8 content">
-                <h2 class="title">Primary Presenter</h2>
+                <h2 class="title">Flutter</h2>
                 <div class="details">
-                  <p>Name : <b> {{eventData.primPres.name}} </b> </p>
-                  <p>Topic : <b> {{eventData.primPres.topic}} </b> </p>
-                  <p>Duration : <b>{{eventData.primPres.duration}}</b></p>
+                  <p>Mentor : <b>Chandana Neeerukonda</b> </p>
+                  <p>Mentees :</p>
+                  <p>1. Manaswi</p>
+                  <p>2. Vasantha</p>
+                  <p>3. Teja</p>
+                  <p>4. Sagarika</p>
+                  <p>5. Varshini</p>
+                  <p>6. Rahita</p>
                 </div>
               </div>
             </div>
@@ -36,44 +41,107 @@
           <!-- 2 1-->
           <div class="card">
             <div class="row">
-              <div class="col-md-4 secondarypresentor">
+              <div class="col-md-4 vyshu">
               </div>
               <div class="col-md-8 content">
-                <h2 class="title">5 Min Presenter 1</h2>
+                <h2 class="title">Backend</h2>
                 <div class="details">
-                  <p>Name : <b> {{eventData.secondPres_1.name}} </b> </p>
-                  <p>Topic : <b> {{eventData.secondPres_1.topic}} </b> </p>
-                  <p>Duration : <b>{{eventData.secondPres_1.duration}}</b></p>
+                  <p>Mentor : <b>Vyshnavi Jujjuru</b> </p>
+                  <p>Mentees :</p>
+                  <p>1. Sarika</p>
+                  <p>2. Jessica</p>
+                  <p>3. Chandana</p>
+                  <p>4. Manasa</p>
+                  <p>5. Lavanya</p>
+                  <p>6. Koushika</p>
                 </div>
+
               </div>
             </div>
           </div>
 
           <div class="card">
             <div class="row">
-              <div class="col-md-4 secondarypresentor">
+              <div class="col-md-4 sai">
               </div>
               <div class="col-md-8 content">
-                <h2 class="title">5 Min Presenter 2</h2>
+                <h2 class="title">AWS</h2>
                 <div class="details">
-                  <p>Name : <b> {{eventData.secondPres_2.name}} </b> </p>
-                  <p>Topic : <b> {{eventData.secondPres_2.topic}} </b> </p>
-                  <p>Duration : <b>{{eventData.secondPres_2.duration}}</b></p>
+                  <p>Mentor : <b>Sai Sri Medepudi</b> </p>
+                  <p>Mentees :</p>
+                  <p>1.Pujitha</p>
+                  <p>2.Charitha</p>
+                  <p>3.Pavani</p>
+                  <p>4.Sai Sindhu</p>
+                  <p>5.Taruna</p>
+                  <p>6.Yasaswini</p>
                 </div>
               </div>
             </div>
           </div>
-
           <div class="card">
             <div class="row">
-              <div class="col-md-4 actionable">
+              <div class="col-md-4 hima">
               </div>
               <div class="col-md-8 content">
-                <h2 class="title">Actionable</h2>
+                <h2 class="title">Angular</h2>
                 <div class="details">
-                  <p>Name : <b> {{eventData.actionable.name}} </b> </p>
-                  <p>Topic : <b> {{eventData.actionable.topic}} </b> </p>
-                  <p>Duration : <b>{{eventData.actionable.duration}}</b></p>
+                  <p>Mentor : <b>Hima</b> </p>
+                  <p>Mentees :</p>
+                  <p>1. Keerthi Sowjanya</p>
+                  <p>2. Ekantha</p>
+                  <p>3. K.vasavi</p>
+                  <p>4. Ashritha
+                  </p>
+                  <p>5. Veekshitha</p>
+                  <p>6. Geetika</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-4 ambica">
+              </div>
+              <div class="col-md-8 content">
+                <h2 class="title">Azure</h2>
+                <div class="details">
+                  <p>Mentor : <b>Ambica Nandigam</b> </p>
+                  <p>Mentees :</p>
+                  <p>1. K.Sravya</p>
+                  <p>2.T.Swathi Ratnam</p>
+                  <p>3.K.Naga Devi </p>
+                  <p>4.M.Priyanka
+                  </p>
+                  <p>5.B.Chinmayee</p>
+                  <p>6.O.Jahnavi</p>
+                  <p>7.O.M.Aishwarya
+                  </p>
+                  <p>8.O.M.Vyshnavi</p>
+                  <p>9.Alekya</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-4 sat">
+              </div>
+              <div class="col-md-8 content">
+                <h2 class="title">React</h2>
+                <div class="details">
+                  <p>Mentor : <b>Satwika</b> </p>
+                  <p>Mentees :</p>
+                  <p>1. Tanuja</p>
+                  <p>2. Ambica</p>
+                  <p>3. Monica</p>
+                  <p>4. Sahithi</p>
+                  <p>5. Radhika</p>
+                  <p>6. Harshitha</p>
+                  <p>7. Annapurna</p>
+
                 </div>
               </div>
             </div>
